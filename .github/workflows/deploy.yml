@@ -47,4 +47,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./public/ 
-          remote-dir: /home/hexos/
+          remote-dir: /home/hexo/
