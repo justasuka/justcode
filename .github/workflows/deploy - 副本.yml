@@ -39,12 +39,3 @@ jobs:
         run: |
           hexo clean
           hexo deploy
-
-      - name: 📂Sync files
-        uses: wlixcc/SFTP-Deploy-Action@v1.0 
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./public/ 
-          remote-dir: /home/hexos/
