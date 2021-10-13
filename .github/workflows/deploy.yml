@@ -43,8 +43,8 @@ jobs:
       - name: 📂Sync files
         uses: wlixcc/SFTP-Deploy-Action@v1.0 
         with:
-          server: ${{ secrets.FTP_SERVER }}
+          server: '${{ secrets.FTP_SERVER }}'
           username: 'root'
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY2 }}
           local_path: './public/*' 
           remote_path: '/home/rn/hexo'
