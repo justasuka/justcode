@@ -1,8 +1,8 @@
 ---
-title: test
+title: 字符串Redis序列化方式与值
 date: 2021-10-13 15:26:00
-tags:['redis','java']
-cover: https://s3.bmp.ovh/imgs/2021/10/52fd491754edacb4.png
+tags: ['redis','java']
+cover: https://s3.bmp.ovh/imgs/2021/10/52fd491754edacb4.
 ---
 
 ## 字符串Redis序列化方式与值
