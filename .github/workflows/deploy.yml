@@ -41,7 +41,7 @@ jobs:
           hexo deploy
 
       - name: 📂Sync files
-        # uses: swillner/sftp-sync-action@v1.0
+        # uses: swillner/sftp-sync-action@v1.0 
         uses: wlixcc/SFTP-Deploy-Action@v1.0 
         with:
           server: '${{ secrets.FTP_SERVER }}'
