@@ -1,7 +1,7 @@
 ---
 title: ubuntu下忘记MySQL密码
 date: 2021-10-12 13:52:48
-tags: "mysql" "Linux";
+tags: ['mysql', 'Linux']
 cover: https://s3.bmp.ovh/imgs/2021/10/52fd491754edacb4.png
 ---
 ## ubuntu
