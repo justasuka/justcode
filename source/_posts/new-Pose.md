@@ -1,7 +1,7 @@
 ---
 title: ubuntu下忘记MySQL密码
 date: 2021-10-12 13:52:48
-tags: "mysql"
+tags: "mysql" "Linux";
 cover: https://s3.bmp.ovh/imgs/2021/10/52fd491754edacb4.png
 ---
 ## ubuntu
@@ -22,12 +22,12 @@ mysql -u debian-sys-maint -p
 use mysql;
 ```
 
-## 8.0
+## MySql 8.0
 ```sql
 ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY '新密码注意包含大小写数字特殊字符不然修改不过';
 ```
 
-## 5.0
+## MySql 5.0
 
 ```sql
 update mysql.user set authentication_string=password('123456') where user='root' and Host ='localhost';
