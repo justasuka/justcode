@@ -1,7 +1,8 @@
 ---
 title: sftp
 date: 2021-10-20 17:56:41
-tags:['ssh']
+tags: ['ssh']
+cover: https://s3.bmp.ovh/imgs/2021/10/52fd491754edacb4.png
 ---
 
 ### ssh密钥在这里的作用
