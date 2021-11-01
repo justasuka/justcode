@@ -2,6 +2,7 @@
 title: Mysql函数
 date: 2021-10-26 09:57:45
 tags: ['mysql']
+cover: https://s3.bmp.ovh/imgs/2021/10/52fd491754edacb4.png
 ---
 
 
