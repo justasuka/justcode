@@ -41,3 +41,24 @@ select user,host,plugin from mysql.user;
 flush privileges;
 ```
 OK!
+
+
+
+#### 后续
+
++ >在开启远程链接的时候遇到的问题
+  >
+  >1.创建用户，授予权限
+  >
+  >~~~sh
+  >mysql> CREATE USER 'root'@'%' IDENTIFIED BY 'root';
+  >mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
+  >mysql> flush privileges;
+  >~~~
+  >
+  >2.连接不上并且 _10061unknown error_ 的时候
+  >
+  >在/etc/mysql目录下又多个配置文件，空的或者应用，在mysqld.conf.f下的mysqld.conf里找到_bind-address = 127.0.0.1_,注释掉。
+  >
+  >
+
