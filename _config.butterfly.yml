@@ -14,6 +14,7 @@ menu:
   List||fas fa-list:
     Music: /music/ || fas fa-music
     Movie: /movies/ || fas fa-video
+    Game: /game/ || fas fa-video
   Link: /link/ || fas fa-link
   About: /about/ || fas fa-heart
 
@@ -569,6 +570,16 @@ ClickShowText:
     - 富强
     - 民主
     - 和谐
+    - 文明
+    - 和谐
+    - 自由
+    - 平等
+    - 公正
+    - 法治
+    - 爱国
+    - 敬业
+    - 诚信
+    - 友善
   fontSize: 15px
   random: false
   mobile: false
